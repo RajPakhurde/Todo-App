@@ -166,7 +166,58 @@ h1 {
     opacity: 100%;
   }
 }
-/* background: linear-gradient(-45deg, #ffc0cb, #ffe4e1, #ffb6c1, #fddde6, #ffcff1, #fbcce7);
-background-size: 400% 400%;
-animation: gradient 5s ease infinite;
-height: 100%; */
+
+@media only screen and (max-width: 820px) {
+  img {
+    position: relative;
+    right: -248px;
+  }
+  .todo-btn.done {
+    position: absolute;
+    left: 67%;
+    font-size: 9px;
+  }
+  .todo-btn.remove {
+    position: absolute;
+    left: 73%;
+    font-size: 9px;
+  }
+  .todo-buttons {
+    font-size: 2vw;
+    width: 36vw;
+    margin-left: -15px;
+  }
+  #todoList {
+    width: 36vw;
+    padding: 11px;
+    margin: 18px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  img {
+    position: relative;
+    right: -124px;
+    bottom: 54px;
+  }
+
+  .todo-btn.done {
+    position: absolute;
+    left: 67%;
+    font-size: 9px;
+  }
+  .todo-btn.remove {
+    position: absolute;
+    left: 81%;
+    font-size: 9px;
+  }
+  .todo-buttons {
+    font-size: 2vw;
+    width: 36vw;
+    margin-left: -15px;
+  }
+  #todoList {
+    width: 36vw;
+    padding: 11px;
+    margin: 18px;
+  }
+}
